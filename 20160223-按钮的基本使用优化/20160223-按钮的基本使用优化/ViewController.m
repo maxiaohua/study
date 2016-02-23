@@ -9,6 +9,7 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UIButton *Icon;
 
 @end
 
@@ -22,6 +23,33 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)buttonClick:(UIButton *)sender {
+    CGPoint IconCenter = self.Icon.center;
+    switch (sender.tag) {
+        case 10:
+            IconCenter.y += 50;
+            break;
+            
+        case 20:
+            IconCenter.x += 50;
+            break;
+            
+        case 30:
+            
+            IconCenter.y -= 50;
+            break;
+
+        case 40:
+            IconCenter.x -= 50;
+            break;
+            
+        default:
+            break;
+    }
+    
+    
+    self.Icon.center = IconCenter;
 }
 
 @end

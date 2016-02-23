@@ -17,8 +17,40 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgO-MS-iG8">
+                                <rect key="frame" x="188" y="269" width="39" height="39"/>
+                                <state key="normal" backgroundImage="bottom_normal.png"/>
+                                <state key="highlighted" backgroundImage="bottom_disable.png"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="8PY-SS-h3C"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="40" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="FkX-p5-dBu">
+                                <rect key="frame" x="102" y="316" width="39" height="39"/>
+                                <state key="normal" backgroundImage="left_normal.png"/>
+                                <state key="highlighted" backgroundImage="left_disable.png"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="G8Q-OD-YaK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="30" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NTv-8v-jPl">
+                                <rect key="frame" x="188" y="371" width="39" height="39"/>
+                                <state key="normal" backgroundImage="top_normal.png"/>
+                                <state key="highlighted" backgroundImage="top_disable.png"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gtZ-LP-U1f"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="20" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="efh-AZ-ais">
+                                <rect key="frame" x="269" y="316" width="39" height="39"/>
+                                <state key="normal" backgroundImage="right_normal.png"/>
+                                <state key="highlighted" backgroundImage="right_disable.png"/>
+                                <connections>
+                                    <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v9c-wH-yhV"/>
+                                </connections>
+                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8E-2Q-BIa">
-                                <rect key="frame" x="157" y="44" width="100" height="94"/>
+                                <rect key="frame" x="178" y="44" width="100" height="94"/>
                                 <state key="normal" title="干嘛啊" backgroundImage="btn_01.png">
                                     <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -30,6 +62,9 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina55"/>
+                    <connections>
+                        <outlet property="Icon" destination="g8E-2Q-BIa" id="Bon-VH-9Ql"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -37,7 +72,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="bottom_disable.png" width="96" height="96"/>
+        <image name="bottom_normal.png" width="96" height="96"/>
         <image name="btn_01.png" width="100" height="100"/>
         <image name="btn_02.png" width="100" height="100"/>
+        <image name="left_disable.png" width="96" height="96"/>
+        <image name="left_normal.png" width="96" height="96"/>
+        <image name="right_disable.png" width="96" height="96"/>
+        <image name="right_normal.png" width="96" height="96"/>
+        <image name="top_disable.png" width="96" height="96"/>
+        <image name="top_normal.png" width="96" height="96"/>
     </resources>
 </document>
