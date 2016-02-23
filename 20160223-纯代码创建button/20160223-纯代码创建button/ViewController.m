@@ -16,7 +16,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    //1 创建按钮
+    // 设置大小
+    UIButton * button = [[UIButton alloc] initWithFrame:CGRectMake(100, 100, 100, 100)];
+    //设置背景图片
+    [button setBackgroundColor:[UIColor redColor]];
+    //将按钮添加到View上面
+    [self.view addSubview:button];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
