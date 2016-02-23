@@ -25,16 +25,18 @@
     // Dispose of any resources that can be recreated.
 }
 - (IBAction)bigOrSmall:(UIButton *)sender {
-    CGRect frameTemp = self.Icon.frame;
+//    CGRect frameTemp = self.Icon.frame;
     switch (sender.tag) {
         case 100:
-            frameTemp.size.width += 20;
-            frameTemp.size.height += 20;
+//            frameTemp.size.width += 20;
+//            frameTemp.size.height += 20;
+            self.Icon.transform = CGAffineTransformScale(self.Icon.transform, 1.2, 1.2);
             break;
             
         case 200:
-            frameTemp.size.width -= 20;
-            frameTemp.size.height -= 20;
+//            frameTemp.size.width -= 20;
+//            frameTemp.size.height -= 20;
+            self.Icon.transform = CGAffineTransformScale(self.Icon.transform, 0.8, 0.8);
             break;
   
         default:
@@ -42,43 +44,50 @@
     }
     
     //设置button变大变小
-    self.Icon.frame = frameTemp;
+//    self.Icon.frame = frameTemp;
     
 }
 - (IBAction)buttonClick:(UIButton *)sender {
-    CGPoint IconCenter = self.Icon.center;
+//    CGPoint IconCenter = self.Icon.center;
     switch (sender.tag) {
         case 10:
-            IconCenter.y += 50;
+//            IconCenter.y += 50;
+            [UIView beginAnimations:nil context:nil];
+            [UIView setAnimationDuration:1.0f];
+            self.Icon.transform = CGAffineTransformTranslate(self.Icon.transform, 0, 50);
+            [UIView commitAnimations];
             break;
             
         case 20:
-            IconCenter.x += 50;
+//            IconCenter.x += 50;
+            self.Icon.transform = CGAffineTransformTranslate(self.Icon.transform, 50, 0);
             break;
             
         case 30:
             
-            IconCenter.y -= 50;
+//            IconCenter.y -= 50;
+            self.Icon.transform = CGAffineTransformTranslate(self.Icon.transform, 0, -50);
             break;
 
         case 40:
-            IconCenter.x -= 50;
+//            IconCenter.x -= 50;
+            self.Icon.transform = CGAffineTransformTranslate(self.Icon.transform, -50, 0);
             break;
             
         default:
             break;
     }
-    //为button添加动画效果
-    //开始动画
-    [UIView beginAnimations:nil context:nil];
-    //设置动画时长
-    [UIView setAnimationDuration:3.0f];
-    
-    //移动button
-    self.Icon.center = IconCenter;
-    
-    //结束动画/提交动画
-    [UIView commitAnimations];
+//    //为button添加动画效果
+//    //开始动画
+//    [UIView beginAnimations:nil context:nil];
+//    //设置动画时长
+//    [UIView setAnimationDuration:3.0f];
+//    
+//    //移动button
+//    self.Icon.center = IconCenter;
+//    
+//    //结束动画/提交动画
+//    [UIView commitAnimations];
     
 }
 
