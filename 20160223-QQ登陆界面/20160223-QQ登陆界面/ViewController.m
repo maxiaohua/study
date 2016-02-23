@@ -9,10 +9,17 @@
 #import "ViewController.h"
 
 @interface ViewController ()
+@property (weak, nonatomic) IBOutlet UITextField *QQ;
+@property (weak, nonatomic) IBOutlet UITextField *Password;
 
 @end
 
 @implementation ViewController
+- (IBAction)LoginButtonClick:(UIButton *)sender {
+    NSLog(@"QQ = %@,密码 = %@",self.QQ.text,self.Password.text);
+    //退出键盘
+    [self.view endEditing:YES];
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];

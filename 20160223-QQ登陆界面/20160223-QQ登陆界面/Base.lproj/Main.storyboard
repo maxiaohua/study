@@ -60,6 +60,9 @@
                                 <rect key="frame" x="20" y="156" width="560" height="38"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
                                 <state key="normal" title="登陆"/>
+                                <connections>
+                                    <action selector="LoginButtonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1nj-1b-SbC"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="0.3298262226" green="1" blue="0.2115034294" alpha="1" colorSpace="calibratedRGB"/>
@@ -77,6 +80,10 @@
                             <constraint firstItem="KDd-Y0-rhZ" firstAttribute="leading" secondItem="kfD-8u-DKS" secondAttribute="trailing" constant="10" id="xI5-Iz-bJN"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="Password" destination="KDd-Y0-rhZ" id="kbh-RZ-1KJ"/>
+                        <outlet property="QQ" destination="Kfg-Kd-Eau" id="xav-7t-KMz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
