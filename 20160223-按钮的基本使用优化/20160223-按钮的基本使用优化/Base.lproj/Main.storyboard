@@ -17,6 +17,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8E-2Q-BIa">
+                                <rect key="frame" x="178" y="44" width="100" height="94"/>
+                                <state key="normal" title="干嘛啊" backgroundImage="btn_01.png">
+                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted" title="摸我干嘛" backgroundImage="btn_02.png">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
                             <button opaque="NO" tag="10" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zgO-MS-iG8">
                                 <rect key="frame" x="188" y="269" width="39" height="39"/>
                                 <state key="normal" backgroundImage="bottom_normal.png"/>
@@ -49,14 +58,21 @@
                                     <action selector="buttonClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="v9c-wH-yhV"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g8E-2Q-BIa">
-                                <rect key="frame" x="178" y="44" width="100" height="94"/>
-                                <state key="normal" title="干嘛啊" backgroundImage="btn_01.png">
-                                    <color key="titleColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
-                                <state key="highlighted" title="摸我干嘛" backgroundImage="btn_02.png">
-                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                </state>
+                            <button opaque="NO" tag="100" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Y2d-Md-XsM">
+                                <rect key="frame" x="78" y="156" width="39" height="39"/>
+                                <state key="normal" backgroundImage="plus_highlighted.png"/>
+                                <state key="highlighted" backgroundImage="plus_normal.png"/>
+                                <connections>
+                                    <action selector="bigOrSmall:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hPC-Vm-BMd"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="200" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZu-LG-k7P">
+                                <rect key="frame" x="294" y="156" width="39" height="39"/>
+                                <state key="normal" backgroundImage="minus_highlighted.png"/>
+                                <state key="highlighted" backgroundImage="minus_highlighted.png"/>
+                                <connections>
+                                    <action selector="bigOrSmall:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2qe-Wo-tB0"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -78,6 +94,9 @@
         <image name="btn_02.png" width="100" height="100"/>
         <image name="left_disable.png" width="96" height="96"/>
         <image name="left_normal.png" width="96" height="96"/>
+        <image name="minus_highlighted.png" width="96" height="96"/>
+        <image name="plus_highlighted.png" width="96" height="96"/>
+        <image name="plus_normal.png" width="96" height="96"/>
         <image name="right_disable.png" width="96" height="96"/>
         <image name="right_normal.png" width="96" height="96"/>
         <image name="top_disable.png" width="96" height="96"/>
