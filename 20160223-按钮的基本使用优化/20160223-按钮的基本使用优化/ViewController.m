@@ -47,9 +47,18 @@
         default:
             break;
     }
+    //为button添加动画效果
+    //开始动画
+    [UIView beginAnimations:nil context:nil];
+    //设置动画时长
+    [UIView setAnimationDuration:3.0f];
     
-    
+    //移动button
     self.Icon.center = IconCenter;
+    
+    //结束动画/提交动画
+    [UIView commitAnimations];
+    
 }
 
 @end
