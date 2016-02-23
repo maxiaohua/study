@@ -24,7 +24,26 @@
     //将按钮添加到View上面
     [self.view addSubview:button];
     
+    //设置背景图片
+    [button setBackgroundImage:[UIImage imageNamed:@"btn_01"] forState:UIControlStateNormal];
+    [button setBackgroundImage:[UIImage imageNamed:@"btn_02"] forState:UIControlStateHighlighted];
     
+    //设置标题
+    [button setTitle:@"干嘛啊" forState:UIControlStateNormal];
+    [button setTitle:@"摸我干嘛" forState:UIControlStateHighlighted];
+    
+    //设置文字颜色
+    [button setTitleColor:[UIColor purpleColor] forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor blueColor] forState:UIControlStateHighlighted];
+    
+    //添加点击事件
+    [button addTarget:self action:@selector(buttonClick) forControlEvents:UIControlEventTouchUpInside];
+}
+
+//button的点击事件
+-(void)buttonClick
+{
+    NSLog(@"button被点击了");
 }
 
 - (void)didReceiveMemoryWarning {

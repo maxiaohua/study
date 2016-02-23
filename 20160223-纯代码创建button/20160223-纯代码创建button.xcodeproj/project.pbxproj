@@ -16,6 +16,10 @@
 		60DA7F2D1C7C89AA007DE708 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 60DA7F2B1C7C89AA007DE708 /* LaunchScreen.storyboard */; };
 		60DA7F381C7C89AA007DE708 /* _0160223______buttonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DA7F371C7C89AA007DE708 /* _0160223______buttonTests.m */; };
 		60DA7F431C7C89AA007DE708 /* _0160223______buttonUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 60DA7F421C7C89AA007DE708 /* _0160223______buttonUITests.m */; };
+		60DA7F571C7C8D5E007DE708 /* btn_01.png in Resources */ = {isa = PBXBuildFile; fileRef = 60DA7F521C7C8D5E007DE708 /* btn_01.png */; };
+		60DA7F581C7C8D5E007DE708 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 60DA7F531C7C8D5E007DE708 /* Contents.json */; };
+		60DA7F591C7C8D5E007DE708 /* btn_02.png in Resources */ = {isa = PBXBuildFile; fileRef = 60DA7F551C7C8D5E007DE708 /* btn_02.png */; };
+		60DA7F5A1C7C8D5E007DE708 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = 60DA7F561C7C8D5E007DE708 /* Contents.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		60DA7F3E1C7C89AA007DE708 /* 20160223-纯代码创建buttonUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "20160223-纯代码创建buttonUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		60DA7F421C7C89AA007DE708 /* _0160223______buttonUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "_0160223______buttonUITests.m"; sourceTree = "<group>"; };
 		60DA7F441C7C89AA007DE708 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		60DA7F521C7C8D5E007DE708 /* btn_01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_01.png; sourceTree = "<group>"; };
+		60DA7F531C7C8D5E007DE708 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		60DA7F551C7C8D5E007DE708 /* btn_02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = btn_02.png; sourceTree = "<group>"; };
+		60DA7F561C7C8D5E007DE708 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +128,7 @@
 		60DA7F1A1C7C89AA007DE708 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				60DA7F501C7C8D5E007DE708 /* Head */,
 				60DA7F1B1C7C89AA007DE708 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -141,6 +150,33 @@
 				60DA7F441C7C89AA007DE708 /* Info.plist */,
 			);
 			path = "20160223-纯代码创建buttonUITests";
+			sourceTree = "<group>";
+		};
+		60DA7F501C7C8D5E007DE708 /* Head */ = {
+			isa = PBXGroup;
+			children = (
+				60DA7F511C7C8D5E007DE708 /* btn_01.imageset */,
+				60DA7F541C7C8D5E007DE708 /* btn_02.imageset */,
+			);
+			path = Head;
+			sourceTree = "<group>";
+		};
+		60DA7F511C7C8D5E007DE708 /* btn_01.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				60DA7F521C7C8D5E007DE708 /* btn_01.png */,
+				60DA7F531C7C8D5E007DE708 /* Contents.json */,
+			);
+			path = btn_01.imageset;
+			sourceTree = "<group>";
+		};
+		60DA7F541C7C8D5E007DE708 /* btn_02.imageset */ = {
+			isa = PBXGroup;
+			children = (
+				60DA7F551C7C8D5E007DE708 /* btn_02.png */,
+				60DA7F561C7C8D5E007DE708 /* Contents.json */,
+			);
+			path = btn_02.imageset;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,9 +285,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				60DA7F591C7C8D5E007DE708 /* btn_02.png in Resources */,
+				60DA7F581C7C8D5E007DE708 /* Contents.json in Resources */,
 				60DA7F2D1C7C89AA007DE708 /* LaunchScreen.storyboard in Resources */,
+				60DA7F571C7C8D5E007DE708 /* btn_01.png in Resources */,
 				60DA7F2A1C7C89AA007DE708 /* Assets.xcassets in Resources */,
 				60DA7F251C7C89AA007DE708 /* Main.storyboard in Resources */,
+				60DA7F5A1C7C8D5E007DE708 /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
