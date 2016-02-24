@@ -85,18 +85,20 @@
             break;
     }
     
-    if (self.index == 5) {
-        self.nextBtn.enabled = NO ;
-    }else {
-        self.nextBtn.enabled = YES;
-    }
+//    if (self.index == 5) {
+//        self.nextBtn.enabled = NO ;
+//    }else {
+//        self.nextBtn.enabled = YES;
+//    }
     
-    if (self.index == 1) {
-        self.preBtn.enabled = NO ;
-    }else {
-        self.preBtn.enabled = YES;
-    }
-
+    self.nextBtn.enabled = (self.index == 5) ? NO : YES;
+    
+//    if (self.index == 1) {
+//        self.preBtn.enabled = NO ;
+//    }else {
+//        self.preBtn.enabled = YES;
+//    }
+    self.preBtn.enabled = (self.index == 1) ? NO : YES;
     
 }
 
@@ -141,18 +143,21 @@
             break;
     }
     
-    if (self.index == 1) {
-        self.preBtn.enabled = NO ;
-    }else {
-        self.preBtn.enabled = YES;
-    }
-    
-    if (self.index == 5) {
-        self.nextBtn.enabled = NO ;
-    }else {
-        self.nextBtn.enabled = YES;
-    }
+//    if (self.index == 1) {
+//        self.preBtn.enabled = NO ;
+//    }else {
+//        self.preBtn.enabled = YES;
+//    }
+//    
+//    if (self.index == 5) {
+//        self.nextBtn.enabled = NO ;
+//    }else {
+//        self.nextBtn.enabled = YES;
+//    }
 
-
+//    self.preBtn.enabled = (self.index == 1)? NO : YES;
+    self.preBtn.enabled = (self.index != 1);
+//    self.nextBtn.enabled = (self.index == 5)? NO : YES;
+    self.nextBtn.enabled = (self.index != 5);
 }
 @end
