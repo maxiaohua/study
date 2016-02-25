@@ -92,15 +92,15 @@
 //        self.nextBtn.enabled = YES;
 //    }
     
-    self.nextBtn.enabled = (self.index == 5) ? NO : YES;
-    
-//    if (self.index == 1) {
-//        self.preBtn.enabled = NO ;
-//    }else {
-//        self.preBtn.enabled = YES;
-//    }
-    self.preBtn.enabled = (self.index == 1) ? NO : YES;
-    
+//    self.nextBtn.enabled = (self.index == 5) ? NO : YES;
+//    
+////    if (self.index == 1) {
+////        self.preBtn.enabled = NO ;
+////    }else {
+////        self.preBtn.enabled = YES;
+////    }
+//    self.preBtn.enabled = (self.index == 1) ? NO : YES;
+//    
 }
 
 - (IBAction)preButtonClick:(UIButton *)sender {
@@ -158,9 +158,10 @@
 //    }
 
 //    self.preBtn.enabled = (self.index == 1)? NO : YES;
-    self.preBtn.enabled = (self.index != 1);
+//    self.preBtn.enabled = (self.index != 1);
 //    self.nextBtn.enabled = (self.index == 5)? NO : YES;
-    self.nextBtn.enabled = (self.index != 5);
+//    self.preBtn.enabled = (self.index != 1);
+//    self.nextBtn.enabled = (self.index != 5);
 }
 
 -(void)btnClick
@@ -200,5 +201,8 @@
         default:
             break;
     }
+    self.preBtn.enabled = (self.index != 1);
+    self.nextBtn.enabled = (self.index != 5);
+
 }
 @end
