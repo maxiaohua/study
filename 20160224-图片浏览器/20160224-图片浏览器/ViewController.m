@@ -48,120 +48,17 @@
     //序号，图片，描述都要改变
     //1 当前页码+1
     self.index += 1;
-    //2 序号，图片，描述
-//    switch (self.index) {
-//        case 1:
-//            self.noLabel.text = @"1/5";
-//            self.iconView.image = [UIImage imageNamed:@"biaoqingdi"];
-//            self.descLabel.text = @"在他面前，其他神马表情都弱爆了！";
-//            break;
-//            
-//        case 2:
-//            self.noLabel.text = @"2/5";
-//            self.iconView.image = [UIImage imageNamed:@"bingli"];
-//            self.descLabel.text = @"这也忒狠了";
-//            break;
-//
-//        case 3:
-//            self.noLabel.text = @"3/5";
-//            self.iconView.image = [UIImage imageNamed:@"chiniupa"];
-//            self.descLabel.text = @"这小姑娘吃个牛排比杀牛还费劲啊";
-//            break;
-//
-//        case 4:
-//            self.noLabel.text = @"4/5";
-//            self.iconView.image = [UIImage imageNamed:@"danteng"];
-//            self.descLabel.text = @"亲，你能改下你的网名么？哈哈";
-//            break;
-//
-//        case 5:
-//            self.noLabel.text = @"5/5";
-//            self.iconView.image = [UIImage imageNamed:@"wangba"];
-//            self.descLabel.text = @"哥们为什么选八号呢";
-//            break;
-//
-//            
-//        default:
-//            break;
-//    }
+    //翻页
     [self btnClick];
-    
-//    if (self.index == 5) {
-//        self.nextBtn.enabled = NO ;
-//    }else {
-//        self.nextBtn.enabled = YES;
-//    }
-    
-//    self.nextBtn.enabled = (self.index == 5) ? NO : YES;
-//    
-////    if (self.index == 1) {
-////        self.preBtn.enabled = NO ;
-////    }else {
-////        self.preBtn.enabled = YES;
-////    }
-//    self.preBtn.enabled = (self.index == 1) ? NO : YES;
-//    
 }
 
 - (IBAction)preButtonClick:(UIButton *)sender {
     //序号，图片，描述都要改变
     //1 当前页码-1
     self.index -= 1;
-    //2 序号，图片，描述
-//    switch (self.index) {
-//        case 1:
-//            self.noLabel.text = @"1/5";
-//            self.iconView.image = [UIImage imageNamed:@"biaoqingdi"];
-//            self.descLabel.text = @"在他面前，其他神马表情都弱爆了！";
-//            break;
-//            
-//        case 2:
-//            self.noLabel.text = @"2/5";
-//            self.iconView.image = [UIImage imageNamed:@"bingli"];
-//            self.descLabel.text = @"这也忒狠了";
-//            break;
-//            
-//        case 3:
-//            self.noLabel.text = @"3/5";
-//            self.iconView.image = [UIImage imageNamed:@"chiniupa"];
-//            self.descLabel.text = @"这小姑娘吃个牛排比杀牛还费劲啊";
-//            break;
-//            
-//        case 4:
-//            self.noLabel.text = @"4/5";
-//            self.iconView.image = [UIImage imageNamed:@"danteng"];
-//            self.descLabel.text = @"亲，你能改下你的网名么？哈哈";
-//            break;
-//            
-//        case 5:
-//            self.noLabel.text = @"5/5";
-//            self.iconView.image = [UIImage imageNamed:@"wangba"];
-//            self.descLabel.text = @"哥们为什么选八号呢";
-//            break;
-//            
-//            
-//        default:
-//            break;
-//    }
+    //翻页
     [self btnClick];
     
-//    if (self.index == 1) {
-//        self.preBtn.enabled = NO ;
-//    }else {
-//        self.preBtn.enabled = YES;
-//    }
-//    
-//    if (self.index == 5) {
-//        self.nextBtn.enabled = NO ;
-//    }else {
-//        self.nextBtn.enabled = YES;
-//    }
-
-//    self.preBtn.enabled = (self.index == 1)? NO : YES;
-//    self.preBtn.enabled = (self.index != 1);
-//    self.nextBtn.enabled = (self.index == 5)? NO : YES;
-//    self.preBtn.enabled = (self.index != 1);
-//    self.nextBtn.enabled = (self.index != 5);
 }
 
 -(void)btnClick
