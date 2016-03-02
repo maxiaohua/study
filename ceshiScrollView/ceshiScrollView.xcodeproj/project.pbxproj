@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6016C0541C873B0D0056EDB3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6016C0531C873B0D0056EDB3 /* main.m */; };
+		6016C0571C873B0D0056EDB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6016C0561C873B0D0056EDB3 /* AppDelegate.m */; };
+		6016C05A1C873B0D0056EDB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6016C0591C873B0D0056EDB3 /* ViewController.m */; };
+		6016C05D1C873B0D0056EDB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6016C05B1C873B0D0056EDB3 /* Main.storyboard */; };
+		6016C0601C873B0D0056EDB3 /* ceshiScrollView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6016C05E1C873B0D0056EDB3 /* ceshiScrollView.xcdatamodeld */; };
+		6016C0621C873B0D0056EDB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6016C0611C873B0D0056EDB3 /* Assets.xcassets */; };
+		6016C0651C873B0D0056EDB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6016C0631C873B0D0056EDB3 /* LaunchScreen.storyboard */; };
+		6016C0701C873B0D0056EDB3 /* ceshiScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6016C06F1C873B0D0056EDB3 /* ceshiScrollViewTests.m */; };
+		6016C07B1C873B0D0056EDB3 /* ceshiScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6016C07A1C873B0D0056EDB3 /* ceshiScrollViewUITests.m */; };
+		6016C0891C873B830056EDB3 /* Snip20160302_1.png in Resources */ = {isa = PBXBuildFile; fileRef = 6016C0881C873B830056EDB3 /* Snip20160302_1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6016C06C1C873B0D0056EDB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6016C0471C873B0D0056EDB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6016C04E1C873B0D0056EDB3;
+			remoteInfo = ceshiScrollView;
+		};
+		6016C0771C873B0D0056EDB3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6016C0471C873B0D0056EDB3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6016C04E1C873B0D0056EDB3;
+			remoteInfo = ceshiScrollView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6016C04F1C873B0D0056EDB3 /* ceshiScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ceshiScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6016C0531C873B0D0056EDB3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6016C0551C873B0D0056EDB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6016C0561C873B0D0056EDB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6016C0581C873B0D0056EDB3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		6016C0591C873B0D0056EDB3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		6016C05C1C873B0D0056EDB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6016C05F1C873B0D0056EDB3 /* ceshiScrollView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ceshiScrollView.xcdatamodel; sourceTree = "<group>"; };
+		6016C0611C873B0D0056EDB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6016C0641C873B0D0056EDB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6016C0661C873B0D0056EDB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6016C06B1C873B0D0056EDB3 /* ceshiScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceshiScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6016C06F1C873B0D0056EDB3 /* ceshiScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ceshiScrollViewTests.m; sourceTree = "<group>"; };
+		6016C0711C873B0D0056EDB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6016C0761C873B0D0056EDB3 /* ceshiScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ceshiScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6016C07A1C873B0D0056EDB3 /* ceshiScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ceshiScrollViewUITests.m; sourceTree = "<group>"; };
+		6016C07C1C873B0D0056EDB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6016C0881C873B830056EDB3 /* Snip20160302_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Snip20160302_1.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6016C04C1C873B0D0056EDB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6016C0681C873B0D0056EDB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6016C0731C873B0D0056EDB3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6016C0461C873B0D0056EDB3 = {
+			isa = PBXGroup;
+			children = (
+				6016C0511C873B0D0056EDB3 /* ceshiScrollView */,
+				6016C06E1C873B0D0056EDB3 /* ceshiScrollViewTests */,
+				6016C0791C873B0D0056EDB3 /* ceshiScrollViewUITests */,
+				6016C0501C873B0D0056EDB3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6016C0501C873B0D0056EDB3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6016C04F1C873B0D0056EDB3 /* ceshiScrollView.app */,
+				6016C06B1C873B0D0056EDB3 /* ceshiScrollViewTests.xctest */,
+				6016C0761C873B0D0056EDB3 /* ceshiScrollViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6016C0511C873B0D0056EDB3 /* ceshiScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				6016C0881C873B830056EDB3 /* Snip20160302_1.png */,
+				6016C0551C873B0D0056EDB3 /* AppDelegate.h */,
+				6016C0561C873B0D0056EDB3 /* AppDelegate.m */,
+				6016C0581C873B0D0056EDB3 /* ViewController.h */,
+				6016C0591C873B0D0056EDB3 /* ViewController.m */,
+				6016C05B1C873B0D0056EDB3 /* Main.storyboard */,
+				6016C0611C873B0D0056EDB3 /* Assets.xcassets */,
+				6016C0631C873B0D0056EDB3 /* LaunchScreen.storyboard */,
+				6016C0661C873B0D0056EDB3 /* Info.plist */,
+				6016C05E1C873B0D0056EDB3 /* ceshiScrollView.xcdatamodeld */,
+				6016C0521C873B0D0056EDB3 /* Supporting Files */,
+			);
+			path = ceshiScrollView;
+			sourceTree = "<group>";
+		};
+		6016C0521C873B0D0056EDB3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6016C0531C873B0D0056EDB3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6016C06E1C873B0D0056EDB3 /* ceshiScrollViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				6016C06F1C873B0D0056EDB3 /* ceshiScrollViewTests.m */,
+				6016C0711C873B0D0056EDB3 /* Info.plist */,
+			);
+			path = ceshiScrollViewTests;
+			sourceTree = "<group>";
+		};
+		6016C0791C873B0D0056EDB3 /* ceshiScrollViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6016C07A1C873B0D0056EDB3 /* ceshiScrollViewUITests.m */,
+				6016C07C1C873B0D0056EDB3 /* Info.plist */,
+			);
+			path = ceshiScrollViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6016C04E1C873B0D0056EDB3 /* ceshiScrollView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6016C07F1C873B0D0056EDB3 /* Build configuration list for PBXNativeTarget "ceshiScrollView" */;
+			buildPhases = (
+				6016C04B1C873B0D0056EDB3 /* Sources */,
+				6016C04C1C873B0D0056EDB3 /* Frameworks */,
+				6016C04D1C873B0D0056EDB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ceshiScrollView;
+			productName = ceshiScrollView;
+			productReference = 6016C04F1C873B0D0056EDB3 /* ceshiScrollView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6016C06A1C873B0D0056EDB3 /* ceshiScrollViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6016C0821C873B0D0056EDB3 /* Build configuration list for PBXNativeTarget "ceshiScrollViewTests" */;
+			buildPhases = (
+				6016C0671C873B0D0056EDB3 /* Sources */,
+				6016C0681C873B0D0056EDB3 /* Frameworks */,
+				6016C0691C873B0D0056EDB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6016C06D1C873B0D0056EDB3 /* PBXTargetDependency */,
+			);
+			name = ceshiScrollViewTests;
+			productName = ceshiScrollViewTests;
+			productReference = 6016C06B1C873B0D0056EDB3 /* ceshiScrollViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6016C0751C873B0D0056EDB3 /* ceshiScrollViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6016C0851C873B0D0056EDB3 /* Build configuration list for PBXNativeTarget "ceshiScrollViewUITests" */;
+			buildPhases = (
+				6016C0721C873B0D0056EDB3 /* Sources */,
+				6016C0731C873B0D0056EDB3 /* Frameworks */,
+				6016C0741C873B0D0056EDB3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6016C0781C873B0D0056EDB3 /* PBXTargetDependency */,
+			);
+			name = ceshiScrollViewUITests;
+			productName = ceshiScrollViewUITests;
+			productReference = 6016C0761C873B0D0056EDB3 /* ceshiScrollViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6016C0471C873B0D0056EDB3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "mazhi'hua";
+				TargetAttributes = {
+					6016C04E1C873B0D0056EDB3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = KY627JY429;
+					};
+					6016C06A1C873B0D0056EDB3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = KY627JY429;
+						TestTargetID = 6016C04E1C873B0D0056EDB3;
+					};
+					6016C0751C873B0D0056EDB3 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = KY627JY429;
+						TestTargetID = 6016C04E1C873B0D0056EDB3;
+					};
+				};
+			};
+			buildConfigurationList = 6016C04A1C873B0D0056EDB3 /* Build configuration list for PBXProject "ceshiScrollView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6016C0461C873B0D0056EDB3;
+			productRefGroup = 6016C0501C873B0D0056EDB3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6016C04E1C873B0D0056EDB3 /* ceshiScrollView */,
+				6016C06A1C873B0D0056EDB3 /* ceshiScrollViewTests */,
+				6016C0751C873B0D0056EDB3 /* ceshiScrollViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6016C04D1C873B0D0056EDB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6016C0651C873B0D0056EDB3 /* LaunchScreen.storyboard in Resources */,
+				6016C0891C873B830056EDB3 /* Snip20160302_1.png in Resources */,
+				6016C0621C873B0D0056EDB3 /* Assets.xcassets in Resources */,
+				6016C05D1C873B0D0056EDB3 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6016C0691C873B0D0056EDB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6016C0741C873B0D0056EDB3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6016C04B1C873B0D0056EDB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6016C05A1C873B0D0056EDB3 /* ViewController.m in Sources */,
+				6016C0571C873B0D0056EDB3 /* AppDelegate.m in Sources */,
+				6016C0601C873B0D0056EDB3 /* ceshiScrollView.xcdatamodeld in Sources */,
+				6016C0541C873B0D0056EDB3 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6016C0671C873B0D0056EDB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6016C0701C873B0D0056EDB3 /* ceshiScrollViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6016C0721C873B0D0056EDB3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6016C07B1C873B0D0056EDB3 /* ceshiScrollViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6016C06D1C873B0D0056EDB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6016C04E1C873B0D0056EDB3 /* ceshiScrollView */;
+			targetProxy = 6016C06C1C873B0D0056EDB3 /* PBXContainerItemProxy */;
+		};
+		6016C0781C873B0D0056EDB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6016C04E1C873B0D0056EDB3 /* ceshiScrollView */;
+			targetProxy = 6016C0771C873B0D0056EDB3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6016C05B1C873B0D0056EDB3 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6016C05C1C873B0D0056EDB3 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6016C0631C873B0D0056EDB3 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6016C0641C873B0D0056EDB3 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6016C07D1C873B0D0056EDB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6016C07E1C873B0D0056EDB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6016C0801C873B0D0056EDB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ceshiScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhihuaMa.ceshiScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		6016C0811C873B0D0056EDB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ceshiScrollView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhihuaMa.ceshiScrollView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		6016C0831C873B0D0056EDB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ceshiScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhihuaMa.ceshiScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ceshiScrollView.app/ceshiScrollView";
+			};
+			name = Debug;
+		};
+		6016C0841C873B0D0056EDB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ceshiScrollViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhihuaMa.ceshiScrollViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ceshiScrollView.app/ceshiScrollView";
+			};
+			name = Release;
+		};
+		6016C0861C873B0D0056EDB3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ceshiScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhihuaMa.ceshiScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ceshiScrollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		6016C0871C873B0D0056EDB3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ceshiScrollViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cn.zhihuaMa.ceshiScrollViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ceshiScrollView;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6016C04A1C873B0D0056EDB3 /* Build configuration list for PBXProject "ceshiScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6016C07D1C873B0D0056EDB3 /* Debug */,
+				6016C07E1C873B0D0056EDB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6016C07F1C873B0D0056EDB3 /* Build configuration list for PBXNativeTarget "ceshiScrollView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6016C0801C873B0D0056EDB3 /* Debug */,
+				6016C0811C873B0D0056EDB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6016C0821C873B0D0056EDB3 /* Build configuration list for PBXNativeTarget "ceshiScrollViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6016C0831C873B0D0056EDB3 /* Debug */,
+				6016C0841C873B0D0056EDB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		6016C0851C873B0D0056EDB3 /* Build configuration list for PBXNativeTarget "ceshiScrollViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6016C0861C873B0D0056EDB3 /* Debug */,
+				6016C0871C873B0D0056EDB3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6016C05E1C873B0D0056EDB3 /* ceshiScrollView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6016C05F1C873B0D0056EDB3 /* ceshiScrollView.xcdatamodel */,
+			);
+			currentVersion = 6016C05F1C873B0D0056EDB3 /* ceshiScrollView.xcdatamodel */;
+			path = ceshiScrollView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6016C0471C873B0D0056EDB3 /* Project object */;
+}
