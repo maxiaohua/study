@@ -20,6 +20,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     self.S.contentSize = self.M.frame.size;
+    self.S.contentInset = UIEdgeInsetsMake(20, 20, 20, 20);
+    self.S.contentOffset = CGPointMake(-100, -200);
+    self.S.bounces = NO ;
+    self.S.showsHorizontalScrollIndicator = YES ;
+    self.S.showsVerticalScrollIndicator = NO ;
 }
 
 - (void)didReceiveMemoryWarning {
